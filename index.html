@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Comm</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+
+    <header id="header"></header>
+
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <main>
+        <!-- Slider Starts Herer -->
+        <div class="container" style="width: 1340px;position: absolute;top: 12%;left: -30px;">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- This image has been taken from <a href="https://amazon.in"> amazon.in </a> -->
+                        <img src="/img/1.jpg" width="100%" height="250px" alt="">
+                    </div>
+
+                    <div class="item">
+                        <!-- This image has been taken from <a href="https://amazon.in"> amazon.in </a> -->
+                        <img src="/img/2.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <!-- This image has been taken from <a href="https://amazon.in"> amazon.in </a> -->
+                        <img src="/img/3.jpg" alt="New york" style="width:100%;">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- Slider Ends Here -->
+<!-- <br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br> -->
+
+        <div class="item1">
+            <img src="/img/4.jpg" alt="Pic">
+            <del>₹25,000</del> &nbsp; ₹22,340
+        </div>
+        <div class="item1">
+            <img src="/img/4.jpg" alt="Pic">
+            <del>₹25,000</del> &nbsp; ₹22,340
+        </div>
+        <div class="item1">
+            <img src="/img/4.jpg" alt="Pic">
+            <del>₹25,000</del> &nbsp; ₹22,340
+        </div>
+        <!-- <div class="item1">
+            <img src="/img/4.jpg" alt="Pic">
+            <del>₹25,000</del> &nbsp; ₹22,340
+        </div> -->
+
+
+    </main>
+    <!-- <footer id="footer"></footer> -->
+
+    <script>
+        $(window).on("load", function () {
+            $(".loader-container").fadeOut(1000);
+        });
+    </script>
+</body>
+
+</html>

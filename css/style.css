@@ -1,0 +1,22 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    -webkit-user-select: none;
+    -user-select: none;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.item1{
+    display: inline;
+    margin: 30px;
+    width: 200px;
+    background: red;
+}
+
+.item1 img{
+    width: 160px;
+}
