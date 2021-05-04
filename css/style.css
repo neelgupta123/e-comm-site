@@ -10,6 +10,12 @@ body{
     width: 100%;
 }
 
+.card-item{
+    display: inline-block;
+    margin: 30px;
+
+}
+
 .card-item img{
     width: 200px;
 }

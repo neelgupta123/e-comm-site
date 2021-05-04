@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Comm</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/loader.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
@@ -29,30 +30,42 @@
     <div class="loader-container">
         <div class="loader"></div>
     </div>
+    <!-- <script>
+        $(window).on("load", function () {
+            $(".loader-container").fadeOut(1000);
+        });
+    </script> -->
+
+    <script>
+        let spinnerWrapper = document.querySelector('.loader-container');
+    
+        window.addEventListener('load', function () {
+            // spinnerWrapper.style.display = 'none';
+            spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+        });
+    </script>
 
     <main>
         <div class="container">
+
+
+            <img src="https://source.unsplash.com/1300x400/?laptops,clothing" alt="Banner">
+
 
             <div class="card">
 
                 <h2>Laptops</h2>
                 <div class="card-item">
-                    <img src="/img/4.jpg" alt="Pic">
+                    <img src="/img/4.jpg" alt="HP Laptop">
+                    <p>HP 15 Entry Level 15.6-inch (39.62 cms)</p>
+                    <p> 22,990</p>
                     <p> 20% Off</p>
-                    <p> 22,000</p>
-                    <p> rtgtr</p>
                 </div>
                 <div class="card-item">
                     <img src="/img/5.jpg" alt="Pic">
-                    <p> 20% Off</p>
-                    <p> 22,000</p>
-                    <p> rtgtr</p>
-                </div>
-                <div class="card-item">
-                    <img src="/img/4.jpg" alt="Pic">
-                    <p> 20% Off</p>
-                    <p> 22,000</p>
-                    <p> rtgtr</p>
+                    <p>AVITA Essential NE14A2INC433-CR 14"</p>
+                    <p> ₹17,990</p>
+                    <!-- <p> 20% Off</p> -->
                 </div>
                 <div class="card-item">
                     <img src="/img/4.jpg" alt="Pic">
@@ -70,22 +83,10 @@
 
         </div>
 
-
-
-
-
-
-
-
-        
     </main>
     <footer id="footer"></footer>
 
-    <script>
-        $(window).on("load", function () {
-            $(".loader-container").fadeOut(1000);
-        });
-    </script>
+
 </body>
 
 </html>
