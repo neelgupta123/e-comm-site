@@ -18,3 +18,11 @@ body {
 .card-item img {
     width: 200px;
 }
+
+.links i{
+    margin: 23px;
+}
+
+.card h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
