@@ -11,7 +11,7 @@ footer{
     outline: none;
 }
 
-p{
+.copytxt{
     height: 9vh;
     color: white;
     display: flex;
