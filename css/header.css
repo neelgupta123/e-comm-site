@@ -29,12 +29,13 @@
     padding: 6px;
 }
 
-h1 {
+#logo{
     position: absolute;
-    left: 3%;
-    top: -7px;
+    left: 4%;
+    top: 18px;
     color: #222222;
     font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
 }
 
 nav {

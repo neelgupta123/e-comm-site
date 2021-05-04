@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     -webkit-user-select: none;
-    -user-select: none;
+    user-select: none;
 }
 
 body{
@@ -10,15 +10,6 @@ body{
     width: 100%;
 }
 
-.item1{
-    display: inline;
+.card-item img{
     width: 200px;
-}
-
-.item1 img{
-    width: 180px;
-}
-
-p{
-    
 }
