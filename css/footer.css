@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     -webkit-user-select: none;
     -user-select: none;
 }
 
-footer{
+footer {
     background-color: black;
     border-radius: 3px;
     outline: none;
 }
 
-.copytxt{
+.copytxt {
     height: 9vh;
     color: white;
     display: flex;

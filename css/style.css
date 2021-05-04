@@ -5,17 +5,16 @@
     user-select: none;
 }
 
-body{
+body {
     overflow-x: hidden;
     width: 100%;
 }
 
-.card-item{
+.card-item {
     display: inline-block;
     margin: 30px;
-
 }
 
-.card-item img{
+.card-item img {
     width: 200px;
 }
